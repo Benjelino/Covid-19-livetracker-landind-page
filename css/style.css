@@ -215,6 +215,44 @@ img{
     border-radius: 5px;
     margin: 0.5rem 0;
 }
+.box-2 div{
+    display: flex;
+    padding: 0.6rem 1.3rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: var(--backgroud-color);
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+.box-2 div img{
+    width: 30px;
+    height: 30px;
+}
+.box-2 div p{
+    color: rgb(59, 59, 59);
+    text-align: right;
+}
+.countries{
+    margin-right: 15%;
+    justify-content: left;
+    text-align: left;
+}
+   
+#box-2-global{
+    display: flex;
+    padding: 0.6rem 1.3rem;
+    justify-content: space-between;
+    background: none;
+    width: 100%;
+    border: 3px solid var(--ash-color);
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+#box-2-global p{
+    color: var(--ash-color);
+}
+
 .box-2 hr{
     width: 100%;
     border: 2px solid var(--gray-color);
