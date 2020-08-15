@@ -136,7 +136,7 @@ img{
 
 .section-1{
     width: 100%;
-    height: 200vh;
+    height: 350vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -146,7 +146,7 @@ img{
     background: var(--backgroud-color);
 }
 
-/* Container */
+/* Container and Boxes*/
 
 .container{
     position: relative;
@@ -280,14 +280,22 @@ img{
     align-items: center;
     text-align: center;
 }
-.b-5{
+.box-6{
     position: relative;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-    height: 40vh;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    background: white;
+    height: 50vh;
+    padding: 3rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.below{
+    height: 50vh;
+    text-align: left;
 }
 .b-4-div{
     position: relative;
@@ -304,6 +312,8 @@ img{
     width: 23%;
     height: 100%;
     display: flex;
+    background: var(--backgroud-color);
+    box-shadow: none;
     flex-direction: column;
     object-fit: contain;
     align-items: center;
@@ -312,8 +322,8 @@ img{
 .vector{
     border-radius: 100%;
     background: rgba(77, 80, 243, 0.7);
-    width: 30%;
-    height: 42%;
+    width: 70px;
+    height: 70px;
     margin-bottom: 1rem;
     overflow: hidden;
 }
@@ -325,11 +335,58 @@ img{
 }
 .b-4-title p{
     color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.b-4-text p{
+    color: var(--primary-light-color);
     font-size: 1rem;
 }
-.b-4-text p{
+.box-6 p{
     color: var(--primary-color);
-    font-size: 1rem;
+    font-size: x-large;
+}
+.b-6-div{
+    position: relative;
+    margin-top: 2rem;
+    width: 90%;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+}
+.item-1{
+    display: block;
+    width: 300px;
+    height: 30vh;
+    object-fit: contain;
+}
+.item-1 div{
+    display: flex;
+    padding: 0.2rem .5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+#box-6-global{display: flex;
+    padding: 0.3rem 0.5rem;
+    justify-content: space-between;
+    background: none;
+    width: 100%;
+    border: 3px solid var(--ash-color);
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+#box-6-global p{
+    font-size: large;
+}
+#box-6-global i{
+    color: var(--primary-color);
 }
 .container-item{
     display: flex;
