@@ -35,6 +35,16 @@ p{
 img{
     width: 100%;
 }
+ul {
+    list-style: none; 
+    padding: 5px 0;
+    text-align: left;
+    align-items: left;
+}
+li{
+    margin-top: 10px;
+    text-align: left;
+}
 
 .Showcase{
     width: 100%;
@@ -136,7 +146,7 @@ img{
 
 .section-1{
     width: 100%;
-    height: 483vh;
+    height: 480vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -287,9 +297,22 @@ img{
 .fourth{
     width: 100%;
     background: var(--primary-color);
+    justify-content: none;
+    padding: 3rem;
 }
 .fifth{
-    height: 2vh;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    border-top: 1px solid var(--ash-color);
+    background: var(--primary-color);
+    text-align: center;
+    align-items: center;
+}
+.fifth p{
+    text-align: center;
+    align-items: center;
 }
 .box-6{
     position: relative;
@@ -354,8 +377,32 @@ img{
 .b-4-title {
     margin: 1rem 0;
 }
-.left{
+.first-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-four{
     text-align: left;
+}
+.second-four ul{
+    margin-top: 20px;
+}
+.first-four img{
+    width: 4rem;
+    height: 4rem;
+}
+.four-one{
+    flex: 2;
+}
+.four-two{
+    flex: 1;
+}
+.four-three{
+    flex: 1;
+}
+.four-four{
+    flex: 1;
 }
 .b-4-title p{
     color: var(--primary-color);
